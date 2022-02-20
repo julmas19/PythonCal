@@ -16,7 +16,7 @@ for k in range(repeticiones):
     num = random.randint(0,rango)
     valor = baraja[num]
     baraja.pop(num)
-    cola.append(valor)
+
     mano.append(valor)
   for i in mano:
     if(i.split('-')[0]=='A'):
@@ -27,3 +27,4 @@ for k in range(repeticiones):
   baraja.clear()
   mano.clear()
   cont=0 
+AS3/repeticiones 
