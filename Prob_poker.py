@@ -28,3 +28,4 @@ for k in range(repeticiones):
   mano.clear()
   cont=0 
 AS3/repeticiones 
+print("Hola usuario")
